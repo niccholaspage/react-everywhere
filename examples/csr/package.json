@@ -1,5 +1,5 @@
 {
-  "name": "react-spa",
+  "name": "react-csr",
   "type": "module",
   "scripts": {
     "dev": "vite",
