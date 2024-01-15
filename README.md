@@ -11,7 +11,8 @@ Examples will include:
 - Static SSR + SSG with Hydration
   - This example includes static server side rendering and static site generation with renderToStaticMarkup. This is kind of like how [react-static](https://github.com/react-static/react-static) worked (RIP), where it would render your site to static HTML so you could serve it in an S3 bucket without needing a server, and then hydrate the site on the client side.
 - SSR (Server Side Rendering with renderToString and Hydration)
-  - This example includes server side rendering with renderToString and client side hydration with ReactDOM.hydrate. Think [create-vite-extra's `template-ssr-react` template](https://github.com/bluwy/create-vite-extra/tree/master/template-ssr-react), which is what this example is based off of.
-- Streaming SSR (Server Side Rendering with renderToPipeableStream and Hydration) (TODO)
+  - This example includes server side rendering with renderToString and client side hydration with ReactDOM.hydrate. Think [create-vite-extra's `template-ssr-react` template](https://github.com/bluwy/create-vite-extra/tree/master/template-ssr-react) (which is what this example is based off of), or older versions of Remix.
+- Streaming SSR (Server Side Rendering with renderToPipeableStream and Hydration)
+  - This example includes server side rendering with renderToPipeableStream and client side hydration with ReactDOM.hydrate. Think newer versions of [Remix](https://remix.run/). TODO: Figure out how to get Vite's dev mode working correctly, and setup Suspense-enabled data fetching so we can actually try Suspense properly.
 - RSC (React Server Components) with CSR (TODO)
 - RSC (React Server Components) with SSR and Hydration (TODO)
